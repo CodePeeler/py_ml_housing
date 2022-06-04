@@ -13,7 +13,7 @@ import pandas as pd
 
 DWNLOAD_ROOT = "https://raw.githubusercontent.com/ageron/handson-ml/master"
 HOUSING_URL = DWNLOAD_ROOT + "/datasets/housing/housing.tgz"
-HOUSING_PATH = os.path.join("datsets", "housing");
+HOUSING_PATH = os.path.join("datasets", "housing");
 
 def fetch_housing_data(housing_url=HOUSING_URL, housing_path=HOUSING_PATH):
     os.makedirs(housing_path, exist_ok=True)

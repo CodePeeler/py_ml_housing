@@ -24,7 +24,7 @@ Step 4: Deactivate environment (when finished).
 ```
 Step [1]: Register your virtual env to jupyter (Do once on set up).
 
-	> python -m ipykernel install --user --name=housing
+	> python -m ipykernel install --user --name=ml_env
 
 Step [2]: Set Jupyter password (Do once on set up).
 

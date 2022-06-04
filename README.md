@@ -21,7 +21,7 @@ Step 4: Deactivate environment (when finished).
 	> deactivate
 ```	
 #### JUPYTER NOTEBOOK
-```
+```bash
 Step [1]: Register your virtual env to jupyter (Do once on set up).
 
 	> python -m ipykernel install --user --name=ml_env
@@ -36,7 +36,7 @@ Step 3: Start up notebook.
 		
 ```		
 ### DATA
-```
+```bash
 Step 1: Get data
 	
 	import util.housing_data and run fetch_housing_data()

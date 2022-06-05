@@ -5,7 +5,7 @@
 This notebook will serve has a space for learning and experimenting with the material from
 Geron's book.
 
-#### Setup
+##### SETUP
 ```bash
 
 Step [1]: Create virtual python environment (Do once on set-up).
@@ -23,8 +23,8 @@ Step [3]: Install dependencies (Do once on set-up).
 Step 4: Deactivate environment (when finished).
 
 	> deactivate
-```	
-#### JUPYTER NOTEBOOK
+```
+##### JUPYTER NOTEBOOK
 ```bash
 Step [1]: Register your virtual env to jupyter (Do once on set-up).
 
@@ -38,10 +38,10 @@ Step 3: Start up notebook.
 
 	> jupyter notebook
 		
-```		
-### DATA
+```
+##### DATA
 ```bash
-Step 1: In Juypter now... load the data.
+Step 1: In Juypter now... get the data.
 	
 	> import util.housing_data 
 	> fetch_housing_data()

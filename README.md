@@ -48,6 +48,5 @@ Step 1: In Juypter now... load the data.
 
 Step 2: Load the data.
 
-	> import util.housing_data
 	> load_housing_data()
 ```
